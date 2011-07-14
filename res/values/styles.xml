@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+	<style name="TextShadow">
+		<item name="android:shadowColor">#666666</item>
+		<item name="android:shadowDx">1.0</item>
+		<item name="android:shadowDy">1.0</item>
+		<item name="android:shadowRadius">1.0</item>
+	</style>
+	<style name="SubmitButton">
+		<item name="android:paddingTop">10dip</item>
+		<item name="android:paddingBottom">10dip</item>
+		<item name="android:paddingLeft">20dip</item>
+		<item name="android:paddingRight">20dip</item>
+		<item name="android:background">@drawable/simple_button</item>
+		<item name="android:textStyle">bold</item>
+		<item name="android:textSize">20sp</item>
+		<item name="android:textColor">#FFFFFF</item>
+		<item name="android:shadowColor">#363636</item>
+		<item name="android:shadowDx">1.0</item>
+		<item name="android:shadowDy">1.0</item>
+		<item name="android:shadowRadius">1.0</item>
+	</style>
+</resources>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, FastFood!</string>
+    <string name="app_name">Fast Food</string>
+    <string name="location_label">Where Are You?</string>
+    <string name="cuisine_label">Refine Your Search (optional)</string>
+    <string name="default_location">Street Address, City, State</string>
+    <string name="gps">GPS</string>
+    <string name="default_cuisine">Filter Results by Cuisine</string>
+    <string name="search_button">Find Restaurants</string>
+    <string name="favorites_button">Order a Favorite</string>
+    <string name="sign_in">Sign In</string>
+    <string-array name="cuisine_options">
+    	<item>Any</item>
+    	<item>American</item>
+    	<item>Asian</item>
+    	<item>BBQ</item>
+    	<item>Bagels</item>
+    	<item>Bakery</item>
+    	<item>Breakfast</item>
+    	<item>Chicken</item>
+    	<item>Chinese</item>
+    	<item>Cuban</item>
+    	<item>Deli</item>
+    	<item>Dessert</item>
+    	<item>French</item>
+    	<item>Greek</item>
+    	<item>Grill</item>
+    	<item>Hamburgers</item>
+    	<item>Healthy</item>
+    	<item>Indian</item>
+    	<item>Italian</item>
+    	<item>Japanese</item>
+    	<item>Latin American</item>
+    	<item>Mediterranean</item>
+    	<item>Mexican</item>
+    	<item>Pasta</item>
+    	<item>Pizza</item>
+    	<item>Ribs</item>
+    	<item>Salads</item>
+    	<item>Sandwiches</item>
+    	<item>Seafood</item>
+    	<item>Soup</item>
+    	<item>Steak</item>
+    	<item>Subs</item>
+    	<item>Sushi</item>
+    	<item>Vegetarian</item>
+    	<item>Wraps</item>
+    </string-array>
+</resources>

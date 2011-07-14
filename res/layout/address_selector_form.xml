@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	android:background="@drawable/form_editable"
+	android:clickable="true"
+	android:focusable="true" >
+	<TextView android:id="@+id/address_text"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:padding="10dip"
+		android:text="@string/default_location"
+		android:textColor="#666666"
+		android:textSize="18sp"
+		android:layout_gravity="left|center_vertical" />
+	<RelativeLayout android:id="@+id/gps_button"
+		android:layout_width="wrap_content"
+		android:layout_height="match_parent"
+		android:padding="10dip"
+		android:layout_gravity="right"
+		android:background="@drawable/gps_bg"
+		android:clickable="true"
+		android:focusable="true" >
+		<ImageView android:id="@+id/gps_icon"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_centerInParent="true"
+			android:src="@drawable/gps_icon" />
+	</RelativeLayout>
+</FrameLayout>
