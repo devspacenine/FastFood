@@ -49,4 +49,6 @@
     </string-array>
     <string name="cuisine_selection_title">Cuisine Options</string>
     <string name="no_cuisine_options">There are no cuisines to choose from</string>
+    <string name="cancel_filter">Cancel</string>
+    <string name="save_filter">Set Filter</string>
 </resources>

@@ -2,8 +2,10 @@
 <CheckedTextView xmlns:android="http://schemas.android.com/apk/res/android"
 	android:layout_width="match_parent"
 	android:layout_height="wrap_content"
-	android:padding="10dip"
+	android:padding="15dip"
 	android:background="@drawable/cuisine_selector"
-	android:textSize="18sp"
-	android:textColor="@color/cuisine_selector_text_color"
+	android:checkMark="@drawable/checkbox"
+	android:textSize="20sp"
+	android:textStyle="bold"
+	android:textColor="@color/cuisine_selector_text"
 	android:gravity="left|center_vertical" />
