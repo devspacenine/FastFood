@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <resources>
+	<color name="dark_text">#333333</color>
+	<color name="grey_text">#666666</color>
 	<color name="form_border">#999999</color>
 	<color name="form_border_selected">#33CC66</color>
 	<color name="gps_button">#1D1D1D</color>

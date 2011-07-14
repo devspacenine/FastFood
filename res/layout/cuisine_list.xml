@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    >
+    <RelativeLayout android:id="@+id/header_bg"
+    	android:layout_width="match_parent"
+    	android:layout_height="70dip"
+    	android:background="@drawable/header_bg" >
+    	<ImageView android:id="@+id/logo"
+    		android:layout_width="wrap_content"
+    		android:layout_height="wrap_content"
+    		android:layout_alignParentLeft="true"
+    		android:layout_centerVertical="true"
+    		android:layout_marginTop="10dip"
+    		android:layout_marginBottom="10dip"
+    		android:src="@drawable/logo" />
+    	<Button android:id="@+id/account_button"
+    		style="@style/TextShadow"
+    		android:layout_width="wrap_content"
+    		android:layout_height="match_parent"
+    		android:paddingLeft="15dip"
+    		android:paddingRight="15dip"
+    		android:layout_alignParentRight="true"
+    		android:layout_centerVertical="true"
+    		android:gravity="center"
+    		android:text="@string/sign_in"
+    		android:textColor="@color/white"
+    		android:textSize="24sp"
+    		android:textStyle="bold"
+    		android:background="@drawable/header_button" />
+    </RelativeLayout>
+    <LinearLayout android:id="@+id/cuisine_selection_menu"
+    	android:orientation="vertical"
+    	android:layout_width="match_parent"
+    	android:layout_height="match_parent"
+    	android:layout_below="@id/header_bg" >
+    	<TextView
+    		style="@style/TextShadow"
+    		android:layout_width="match_parent"
+    		android:layout_height="wrap_content"
+    		android:gravity="center"
+    		android:padding="10dip"
+    		android:background="@drawable/subheader_bg"
+    		android:text="@string/cuisine_selection_title"
+    		android:textSize="16sp"
+    		android:textStyle="bold"
+    		android:textColor="@color/dark_text" />
+    	<ListView android:id="@android:id/list"
+    		android:layout_width="match_parent"
+    		android:layout_height="wrap_content"
+    		android:choiceMode="multipleChoice" />
+    	<TextView android:id="@android:id/empty"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/no_cuisine_options" />
+    </LinearLayout>
+</RelativeLayout>

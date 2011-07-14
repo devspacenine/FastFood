@@ -47,4 +47,6 @@
     	<item>Vegetarian</item>
     	<item>Wraps</item>
     </string-array>
+    <string name="cuisine_selection_title">Cuisine Options</string>
+    <string name="no_cuisine_options">There are no cuisines to choose from</string>
 </resources>
