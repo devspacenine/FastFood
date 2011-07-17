@@ -1,13 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <resources>
+	<!-- Text colors -->
 	<color name="dark_text">#333333</color>
 	<color name="grey_text">#666666</color>
+	<color name="link">#0011CC</color>
+	<color name="link_pressed">#660000</color>
+	
+	<!-- Border colors -->
 	<color name="form_border">#999999</color>
-	<color name="form_border_selected">#33CC66</color>
+	<color name="form_border_selected">#993333</color>
+	
+	<!-- Background colors -->
+	<color name="button_pressed_light">#DD993333</color>
+	<color name="button_pressed_dark">#EE660000</color>
+	<color name="button_light">#33CC66</color>
+	<color name="button_dark">#115522</color>
 	<color name="gps_button">#1D1D1D</color>
+	
+	<!-- General colors -->
 	<color name="white">#FFFFFF</color>
-	<color name="button_light">#DD993333</color>
-	<color name="button_dark">#EE660000</color>
-	<color name="button_pressed_light">#33CC66</color>
-	<color name="button_pressed_dark">#115522</color>
+	<color name="black">#000000</color>
+	<color name="transparent">#00000000</color>
 </resources>

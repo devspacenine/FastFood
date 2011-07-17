@@ -4,7 +4,7 @@
 	<corners 
 		android:radius="10dip" />
 	<solid
-		android:color="@color/white" />
+		android:color="@color/transparent" />
 	<stroke 
 		android:width="2dip"
 		android:color="@color/form_border_selected" />

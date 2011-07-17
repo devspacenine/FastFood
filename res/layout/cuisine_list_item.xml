@@ -7,5 +7,5 @@
 	android:checkMark="@drawable/checkbox"
 	android:textSize="20sp"
 	android:textStyle="bold"
-	android:textColor="@color/cuisine_selector_text"
+	android:textColor="@color/cuisine_text_selector"
 	android:gravity="left|center_vertical" />

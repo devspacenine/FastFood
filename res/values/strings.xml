@@ -1,17 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="hello">Hello World, FastFood!</string>
     <string name="app_name">Fast Food</string>
-    <string name="location_label">Where Are You?</string>
-    <string name="cuisine_label">Refine Your Search (optional)</string>
-    <string name="default_location">Street Address, City, State</string>
-    <string name="gps">GPS</string>
-    <string name="default_cuisine">Filter Results by Cuisine</string>
+    
+    <!-- Form labels and hint values -->
+    <string name="location_input_label">Where Are You?</string>
+    <string name="cuisine_input_label">Refine Your Search (optional)</string>
+    <string name="location_input_hint">Street Address, City, State</string>
+    <string name="cuisine_input_hint">All Cuisines</string>
+    <string name="first_name_input_hint">First Name</string>
+    <string name="last_name_input_hint">Last Name</string>
+    <string name="email_input_hint">Email</string>
+    <string name="password_input_hint">Password</string>
+    <string name="confirm_password_input_hint">Confirm Password</string>
+    
+    <!-- Button text values -->
     <string name="search_button">Find Restaurants</string>
     <string name="favorites_button">Order a Favorite</string>
-    <string name="sign_in">Sign In</string>
+    <string name="sign_in_button">Sign In</string>
+    <string name="recover_password_button">Recover Password</string>
+    <string name="create_account_button">Create Account</string>
+    <string name="legal_info_button">Legal &amp; Privacy</string>
+    <string name="cancel_button">Cancel</string>
+    <string name="save_filter_button">Set Filter</string>
+    <string name="filter_button">Filter</string>
+    
+    <!-- ArrayAdapter string-arrays for ListView options -->
     <string-array name="cuisine_options">
-    	<item>Any</item>
     	<item>American</item>
     	<item>Asian</item>
     	<item>BBQ</item>
@@ -45,10 +59,24 @@
     	<item>Subs</item>
     	<item>Sushi</item>
     	<item>Vegetarian</item>
+    	<item>Vietnamese</item>
     	<item>Wraps</item>
     </string-array>
+    
+    <!-- Subheader titles -->
     <string name="cuisine_selection_title">Cuisine Options</string>
+    <string name="account_portal_title">Sign In</string>
+    
+    <!-- Empty list defaults -->
     <string name="no_cuisine_options">There are no cuisines to choose from</string>
-    <string name="cancel_filter">Cancel</string>
-    <string name="save_filter">Set Filter</string>
+    
+    <!-- Miscellaneous strings -->
+    <string name="or">or</string>
+    
+    <!-- Dialog strings -->
+    <string name="waiting_for_gps">Trying to get your current address...</string>
+    
+    <!-- Temporary strings -->
+    <string name="restaurant_count">6 Restaurants</string>
+    <string name="restaurant_count_subtext">near you are open for delivery services</string>
 </resources>

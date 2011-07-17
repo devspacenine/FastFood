@@ -4,8 +4,14 @@
       android:versionCode="1"
       android:versionName="1.0">
     <uses-sdk android:minSdkVersion="8" />
+    
+    <!-- Permissions -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <application android:icon="@drawable/icon" android:label="@string/app_name">
+    
+    	<!-- Activities -->
         <activity android:name=".FastFood"
                   android:label="@string/app_name"
                   android:theme="@android:style/Theme.NoTitleBar" >
@@ -14,7 +20,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".CuisineListView"></activity>
+        <activity android:name=".CuisineList"></activity>
+        <activity android:name=".AccountPortal"></activity>
+        <activity android:name=".RestaurantSearchResults"></activity>
 
     </application>
 </manifest>

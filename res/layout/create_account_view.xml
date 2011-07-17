@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content" >
+	<LinearLayout
+		android:orientation="vertical"
+	   	android:layout_width="match_parent"
+	   	android:layout_height="wrap_content"
+	   	android:padding="15dip" >
+	   	<EditText android:id="@+id/first_name_input"
+	   		style="@style/TextInput"
+	   		android:layout_width="match_parent"
+	   		android:layout_height="wrap_content"
+	   		android:hint="@string/first_name_input_hint"
+	   		android:layout_marginBottom="20dip" />
+	   	<EditText android:id="@+id/last_name_input"
+	   		style="@style/TextInput"
+	   		android:layout_width="match_parent"
+	   		android:layout_height="wrap_content"
+	   		android:hint="@string/last_name_input_hint"
+	   		android:layout_marginBottom="20dip" />
+	   	<EditText android:id="@+id/create_email_input"
+	   		style="@style/TextInput"
+	   		android:layout_width="match_parent"
+	   		android:layout_height="wrap_content"
+	   		android:hint="@string/email_input_hint"
+	   		android:layout_marginBottom="20dip" />
+	   	<EditText android:id="@+id/create_password_input"
+	   		style="@style/TextInput"
+	   		android:layout_width="match_parent"
+	   		android:layout_height="wrap_content"
+	   		android:hint="@string/password_input_hint"
+	   		android:layout_marginBottom="20dip" />
+	   	<EditText android:id="@+id/confirm_password"
+	   		style="@style/TextInput"
+	   		android:layout_width="match_parent"
+	   		android:layout_height="wrap_content"
+	   		android:hint="@string/confirm_password_input_hint"
+	   		android:layout_marginBottom="20dip" />
+	   	<Button android:id="@+id/create_account_button"
+	   		style="@style/SimpleButton"
+	   		android:layout_width="wrap_content"
+	   		android:layout_height="wrap_content"
+	   		android:layout_gravity="center_horizontal"
+	   		android:text="@string/create_account_button"
+	   		android:onClick="createAccount" />
+	</LinearLayout>
+</ScrollView>

@@ -9,7 +9,7 @@
 		android:layout_width="match_parent"
 		android:layout_height="wrap_content"
 		android:padding="10dip"
-		android:text="@string/default_location"
+		android:hint="@string/location_input_hint"
 		android:textColor="#666666"
 		android:textSize="18sp"
 		android:layout_gravity="left|center_vertical" />

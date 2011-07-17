@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	android:padding="5dip" >
+	<LinearLayout android:id="@+id/left_column"
+		android:orientation="vertical"
+		android:layout_width="100dip"
+		android:layout_height="match_parent"
+		android:layout_alignParentLeft="true"
+		android:layout_alignParentTop="true"
+		android:layout_marginRight="10dip" >
+		<TextView android:id="@+id/rating"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center_horizontal"
+			android:gravity="center"
+			android:textSize="14sp"
+			android:textStyle="bold"
+			android:textColor="@color/dark_text" />
+		<RelativeLayout
+			android:layout_width="match_parent"
+			android:layout_height="60dip"
+			android:padding="10dip"
+			android:background="@drawable/logo_container" >
+			<ImageView android:id="@+id/logo"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_centerInParent="true"
+				android:src="@drawable/papa_johns" />
+		</RelativeLayout>
+		<TextView android:id="@+id/distance"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center_horizontal"
+			android:gravity="center"
+			android:textSize="12sp"
+			android:textStyle="bold"
+			android:textColor="@color/grey_text" />
+	</LinearLayout>
+	<LinearLayout
+		android:orientation="vertical"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:layout_toRightOf="@id/left_column" >
+		<TextView android:id="@+id/name"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_gravity="left"
+			android:textSize="16sp"
+			android:textStyle="bold"
+			android:textColor="@color/dark_text"
+			android:maxLines="1" />
+		<TextView android:id="@+id/tags"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_gravity="left"
+			android:textSize="10sp"
+			android:textColor="@color/grey_text"
+			android:maxLines="1" />
+		<TextView android:id="@+id/minimum"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_gravity="left"
+			android:textSize="10sp"
+			android:textColor="@color/grey_text"
+			android:maxLines="1" />
+		<TextView android:id="@+id/delivery_fee"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_gravity="left"
+			android:textSize="10sp"
+			android:textStyle="bold"
+			android:textColor="#115522"
+			android:maxLines="1" />
+		<LinearLayout
+			android:orientation="horizontal"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="5dip" >
+			<ImageView android:id="@+id/phone_open"
+				android:layout_width="20dip"
+				android:layout_height="20dip"
+				android:layout_gravity="left"
+				android:layout_marginRight="5dip"
+				android:background="#363636" />
+			<ImageView android:id="@+id/delivery_open"
+				android:layout_width="20dip"
+				android:layout_height="20dip"
+				android:layout_gravity="left"
+				android:layout_marginRight="5dip"
+				android:background="#363636" />
+			<ImageView android:id="@+id/open"
+				android:layout_width="20dip"
+				android:layout_height="20dip"
+				android:layout_gravity="left"
+				android:background="#363636" />
+		</LinearLayout>
+	</LinearLayout>
+</RelativeLayout>
